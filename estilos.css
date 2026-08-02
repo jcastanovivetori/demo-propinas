@@ -1,0 +1,11 @@
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 22px;
+  max-width: 520px;
+  margin: 40px auto;
+  color: #1b1b1b;
+}
+label { display: block; margin-top: 18px; }
+input, select, button { font-size: 22px; padding: 8px; width: 100%; }
+button { margin-top: 24px; background: #004A5B; color: #fff; border: 0; }
+#resultado { font-size: 34px; font-weight: 700; color: #004A5B; }
