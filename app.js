@@ -9,8 +9,9 @@ function formatear(valor) {
 function calcular() {
   const cuenta = Number(document.getElementById('cuenta').value);
   const porcentaje = Number(document.getElementById('propina').value);
+  const personas = Number(document.getElementById('personas').value);
   const total = cuenta + calcularPropina(cuenta, porcentaje);
-  document.getElementById('resultado').textContent = 'Total con propina: $' + formatear(total);
+  document.getElementById('resultado').textContent = 'Cada uno paga: $' + formatear(total / personas);
 }
 
 document.getElementById('calcular').addEventListener('click', calcular);
