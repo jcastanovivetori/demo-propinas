@@ -1,5 +1,5 @@
 function calcularPropina(cuenta, porcentaje) {
-  return cuenta * porcentaje / 100;
+  return cuenta * porcentaje;
 }
 
 function formatear(valor) {
